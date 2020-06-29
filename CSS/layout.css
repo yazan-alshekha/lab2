@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    float: left;
+    border: black solid 2px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    line-height: 20px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+select {
+    font-size: 15px;
+    width: 300px;
+    margin: 20px;
+}
