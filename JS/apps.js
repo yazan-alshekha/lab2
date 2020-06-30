@@ -60,3 +60,5 @@ $('select').change(function() {
     //print selected option 
     console.log($(this).children('option:selected').val());
 });
+
+// Amazing
