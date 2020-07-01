@@ -7,6 +7,18 @@
     <title>The Gallery of Horns</title>
     <link rel="stylesheet" href="CSS/base.css">
     <link rel="stylesheet" href="CSS/layout.css">
+
+    <script id='template' type='text/x-tmpl-mustache'>
+        <section class="{{keyword}}">
+            <h2>{{title}}</h2>
+            <img src="{{path}}">
+            <p>{{description}}</p>
+
+        </section>
+
+
+
+    </script>
 </head>
 
 <body>
@@ -16,26 +28,26 @@
         </h1>
 
         <select name="filtermenu" value="default" id="keywordselector">
-        <option value="default">Filter by Keyword</option>
-        
-    
-</select>
 
+            <option value="default" >Filter by Keyword</option>
 
+        </select>
+        <button id='SortByTitle'>Sort By Title</button>
+        <button id='SortByHorns'>Sort Number of Horns </button>
+
+        <button id='page1'>page 1 </button>
+        <button id='page2'>page 2 </button>
     </header>
 
 
 
-    <continer>
-        <!-- <section class="photo-template">
-            <h2>sssssss</h2>
-            <img src='' alt="">
-            <p>sssssdsdsdsdsd</p> -->
-        </section>
-    </continer>
+    <container>
 
 
+    </container>
 
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.js'></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
     <script src="JS/apps.js"></script>
